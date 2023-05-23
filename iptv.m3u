@@ -1,0 +1,101 @@
+#EXTM3U
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" Канал-С/360 (Серов, Свердловская область) +2
+
+#EXTVLCOPT:http-user-agent=WINK/1.30.1 (AndroidTV/9) HlsWinkPlayer http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_OTT_KANALC/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" Злат-ТВ/360 (Златоуст, Челябинская область) +2
+
+#EXTVLCOPT:http-user-agent=WINK/1.30.1 (AndroidTV/9) HlsWinkPlayer
+
+http://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R02_OTT_ZLATTV/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" ТРК Братск/360 (Братск, Иркутская область) +5
+
+#EXTVLCOPT:http-user-agent=WINK/1.30.1 (AndroidTV/9) HlsWinkPlayer
+
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R03_BRATSK360/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" Рубин-ТВ/360 (Осинский, Пермский край) +2
+
+#EXTVLCOPT:http-user-agent=WINK/1.30.1 (AndroidTV/9) HlsWinkPlayer 
+
+http://rt-ural-perm-htlive.cdn.ngenix.net/hls/CH_R01_OTT_RUBINTV/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" Норд-ТВ/360 (Новодвинск, Архангельская область) 
+
+#EXTVLCOPT:http-user-agent=WINK/1.30.1 (AndroidTV/9) HlsWinkPlayer 
+
+http://rt-nw-arkh-htlive.cdn.ngenix.net/hls/CH_R01_OTT_NW_ARKH_NORDTV/variant.m3u8
+
+#EXTINF:-1 12 канал/360 (Березовский, Кемеровская область) +4
+
+http://37.205.83.56:81/udp/239.0.42.42:1224
+
+#EXTINF:-1 ТРК Киселевск/360 (Киселевск, Кемеровская область) +4
+
+http://46.180.252.106:9999/udp/239.255.43.11:1234
+
+#EXTINF:-1 Вита-ТВ/360 (Армавир, Краснодарский край)
+
+http://85.172.79.221:36080/live/playlist360.m3u8
+
+#EXTINF:-1 СИНКОМ/360 (Сургут) +2
+
+http://video1.in-news.ru/360/tracks-v1a1/index.m3u8
+
+#EXTINF:-1 Кунгур-ТВ/360 (Кунгур, Пермский край) +2
+
+http://cdn-lb.iptv2022.com/p/rlIAxc9CAXAfUuGShPEAzw,1682080224/streaming/kungurtv/324/1/tracks-v1a1/index.m3u8
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" Продвижение-Тамбов
+
+#EXTVLCOPT:http-user-agent=WINK/1.30.1 (AndroidTV/9) HlsWinkPlayer
+
+http://rt-ct-tamb-htlive.cdn.ngenix.net/hls/CH_R03_OTT_CT_TAMB_PRODVIZHENIE/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" Столица Севера/Продвижение (Якутск) +6
+
+#EXTVLCOPT:http-user-agent=WINK/1.30.1 (AndroidTV/9) HlsWinkPlayer
+
+http://s34351.cdn.ngenix.net/hls/CH_R14_PROMOYKTS/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" Продвижение Омск +3
+
+#EXTVLCOPT:http-user-agent=WINK/1.30.1 (AndroidTV/9) HlsWinkPlayer
+
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_OMSK_PRODVIZHENIE/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" Пыть-Ях Информ/Продвижение (Сургут)
+
+#EXTVLCOPT:http-user-agent=WINK/1.30.1 (AndroidTV/9) HlsWinkPlayer
+
+http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_PYT-YAHINFORM/variant.m3u8
+
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" Тагил-ТВ/Продвижение (Нижний Тагил)
+
+#EXTVLCOPT:http-user-agent=WINK/1.30.1 (AndroidTV/9) HlsWinkPlayer
+
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_TAGILTV_URAL_TAG/variant.m3u8
+
+#EXTINF:-1 СТВ/Продвижение (Стрежевой, Томская область) +4
+
+https://live.stv-tv.ru/playlist2.m3u8
+
+#EXTINF:-1 ТВ Мост/Продвижение (Кемерово) +4
+
+http://46.180.252.106:9999/udp/239.255.42.141:1234
+
+#EXTINF:-1 ТВН/Ново-ТВ/Продвижение (Новокузнецк, Кемеровская область) +4
+
+http://46.180.252.106:9999/udp/239.255.42.140:1234
+
+#EXTINF:-1 5 Канал Прометей/Продвижение (Кизляр)
+
+https://live-prometeyrd.cdnvideo.ru/prometeyrd/prometeyrd.sdp/playlist.m3u8
+
+#EXTINF:-1 Диалог/Продвижение (Усть-Кут, Иркутская область) +5
+
+http://83.234.38.196:5000/udp/225.1.2.3:1234
+
+#EXTINF:-1 Ленинск ТВ/Продвижение (Ленинск-Кузнецкий, Кемеровская область) +4
+
+http://83.166.243.97:8081/ltv1TNT/1/chunks.m3u8
